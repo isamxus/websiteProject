@@ -1,0 +1,29 @@
+@charset 'utf-8';
+
+.home-page-container {
+	position: absolute;
+	top: 3rem;
+	left: 12rem;
+	right: 0;
+	bottom: 0;
+	background-color: #fff;
+    padding: 1.5rem 1rem;
+    .work-space-title {
+    	position: absolute;
+    	display: inline-block;
+    	top: 0;
+    	height: 1.5rem;
+    	background-color: #F5F5F5;
+		border: 1px solid #DDDDDD;
+		border-radius: 4px 0 4px 0;
+		color: #9DA0A4;
+		font-size: 12px;
+		font-weight: bold;
+		padding: 3px 7px;
+    }
+    .work-space-container {
+    	border: 1px solid #DDDDDD;
+    	border-radius: 4px;
+    	height: 100%;
+    }
+}

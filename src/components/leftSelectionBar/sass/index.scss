@@ -1,0 +1,16 @@
+@charset 'utf-8';
+
+.left-select-bar-containter {
+	position: absolute;
+	top: 3rem;
+	width: 12rem;
+	left: 0;
+	background: #ccc;
+	bottom: 0;
+	.ivu-menu-item, .ivu-menu-submenu-title {
+		padding: 5px 24px;
+	}
+	.ivu-menu-item {
+		cursor: move;
+	}
+}

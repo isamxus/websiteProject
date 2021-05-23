@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es5",
+    "strict": true,
+    "jsx": "preserve",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "~components/*": ["./src/components/*"],
+      "~images/*": ["./src/source/images/*"],
+      "~common/*": ["./src/common/*"],
+      "~views/*": ["./src/view/*"],
+      "~src/*": ["./src/*"]
+    },
+    "typeRoots": ["./src/types","./node_modules/vue/types"],
+    "strictNullChecks": true,
+    "strictPropertyInitialization":false,
+    "allowJs": true,
+    "lib": ["ES6","DOM","ES2017","ESNext"],
+    "outDir": "./"
+  },
+  "exclude": ["node_modules", "dist", "src"]
+}
